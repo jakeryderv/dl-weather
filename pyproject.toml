@@ -5,7 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 authors = [{ name = "Jake Van Slyke", email = "jakervanslyke@gmail.com" }]
-dependencies = []
+dependencies = [
+    "earth2studio[data]>=0.19.0",
+]
 
 [project.scripts]
 dl-weather = "dl_weather:main"
