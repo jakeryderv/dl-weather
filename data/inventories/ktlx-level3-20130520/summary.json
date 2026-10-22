@@ -1,0 +1,179 @@
+{
+  "station": "KTLX",
+  "date_utc": "2013-05-20",
+  "window_start_utc": "2013-05-20T18:00:00Z",
+  "window_end_utc": "2013-05-20T22:00:00Z",
+  "interval": "inclusive",
+  "retrieved_at_utc": "2026-10-09T17:09:20.651892+00:00",
+  "source": "NOAA NCEI NEXRAD historical inventory",
+  "timestamp_precision": "minute as supplied by the inventory; exact file timestamps are not yet known",
+  "radar_files_downloaded": 258,
+  "file_sizes_available": true,
+  "products": [
+    {
+      "product": "N0Q",
+      "description": "Digital base reflectivity",
+      "source_url": "https://www.ncei.noaa.gov/nexradinv-ws/csv?siteid=KTLX&dsi=7000&product=N0Q&dateRange=20130520&attributes=mode",
+      "raw_inventory_file": "N0Q-day.csv",
+      "raw_inventory_sha256": "fd1764b2b7a35128fddeb92a8ecb99979a255aec35b6471f51ca5e38316bd2b1",
+      "day_inventory_records": 322,
+      "window_inventory_records": 53,
+      "event_inventory_records": 9,
+      "first_utc_minute": "2013-05-20T18:07Z",
+      "last_utc_minute": "2013-05-20T21:58Z",
+      "vcp_counts": {
+        "32": 2,
+        "11": 2,
+        "12": 49
+      },
+      "intervals_over_7_minutes": [
+        {
+          "minutes": 9.0,
+          "from_utc_minute": "2013-05-20T18:07Z",
+          "to_utc_minute": "2013-05-20T18:16Z"
+        },
+        {
+          "minutes": 10.0,
+          "from_utc_minute": "2013-05-20T18:16Z",
+          "to_utc_minute": "2013-05-20T18:26Z"
+        }
+      ]
+    },
+    {
+      "product": "N0U",
+      "description": "Digital base velocity",
+      "source_url": "https://www.ncei.noaa.gov/nexradinv-ws/csv?siteid=KTLX&dsi=7000&product=N0U&dateRange=20130520&attributes=mode",
+      "raw_inventory_file": "N0U-day.csv",
+      "raw_inventory_sha256": "12c77d7787abdcb5236084ddb6802e66146bc28f84db81b5dbf95780cb0e9e97",
+      "day_inventory_records": 321,
+      "window_inventory_records": 51,
+      "event_inventory_records": 9,
+      "first_utc_minute": "2013-05-20T18:07Z",
+      "last_utc_minute": "2013-05-20T21:58Z",
+      "vcp_counts": {
+        "32": 2,
+        "11": 1,
+        "12": 48
+      },
+      "intervals_over_7_minutes": [
+        {
+          "minutes": 9.0,
+          "from_utc_minute": "2013-05-20T18:07Z",
+          "to_utc_minute": "2013-05-20T18:16Z"
+        },
+        {
+          "minutes": 15.0,
+          "from_utc_minute": "2013-05-20T18:16Z",
+          "to_utc_minute": "2013-05-20T18:31Z"
+        },
+        {
+          "minutes": 9.0,
+          "from_utc_minute": "2013-05-20T21:07Z",
+          "to_utc_minute": "2013-05-20T21:16Z"
+        }
+      ]
+    },
+    {
+      "product": "N0S",
+      "description": "Storm-relative velocity",
+      "source_url": "https://www.ncei.noaa.gov/nexradinv-ws/csv?siteid=KTLX&dsi=7000&product=N0S&dateRange=20130520&attributes=mode",
+      "raw_inventory_file": "N0S-day.csv",
+      "raw_inventory_sha256": "15dd5a3df25b7c8d6447c39018f45ba1802f3d1d1806b3f24ee4d36c4b6a5444",
+      "day_inventory_records": 316,
+      "window_inventory_records": 50,
+      "event_inventory_records": 9,
+      "first_utc_minute": "2013-05-20T18:07Z",
+      "last_utc_minute": "2013-05-20T21:58Z",
+      "vcp_counts": {
+        "32": 1,
+        "11": 1,
+        "12": 48
+      },
+      "intervals_over_7_minutes": [
+        {
+          "minutes": 24.0,
+          "from_utc_minute": "2013-05-20T18:07Z",
+          "to_utc_minute": "2013-05-20T18:31Z"
+        }
+      ]
+    },
+    {
+      "product": "N0C",
+      "description": "Correlation coefficient",
+      "source_url": "https://www.ncei.noaa.gov/nexradinv-ws/csv?siteid=KTLX&dsi=7000&product=N0C&dateRange=20130520&attributes=mode",
+      "raw_inventory_file": "N0C-day.csv",
+      "raw_inventory_sha256": "e05b424a650102b5a6f4cc93e229908be61922e21a3dfcbf47d9d8e223f07cdc",
+      "day_inventory_records": 319,
+      "window_inventory_records": 52,
+      "event_inventory_records": 9,
+      "first_utc_minute": "2013-05-20T18:07Z",
+      "last_utc_minute": "2013-05-20T21:58Z",
+      "vcp_counts": {
+        "32": 2,
+        "11": 1,
+        "12": 49
+      },
+      "intervals_over_7_minutes": [
+        {
+          "minutes": 9.0,
+          "from_utc_minute": "2013-05-20T18:07Z",
+          "to_utc_minute": "2013-05-20T18:16Z"
+        },
+        {
+          "minutes": 10.0,
+          "from_utc_minute": "2013-05-20T18:16Z",
+          "to_utc_minute": "2013-05-20T18:26Z"
+        },
+        {
+          "minutes": 10.0,
+          "from_utc_minute": "2013-05-20T18:26Z",
+          "to_utc_minute": "2013-05-20T18:36Z"
+        }
+      ]
+    },
+    {
+      "product": "N0X",
+      "description": "Differential reflectivity",
+      "source_url": "https://www.ncei.noaa.gov/nexradinv-ws/csv?siteid=KTLX&dsi=7000&product=N0X&dateRange=20130520&attributes=mode",
+      "raw_inventory_file": "N0X-day.csv",
+      "raw_inventory_sha256": "8d602361b3f718b3a970b543e028305a57c284484dd24adcae2dcb5347c9b729",
+      "day_inventory_records": 320,
+      "window_inventory_records": 52,
+      "event_inventory_records": 9,
+      "first_utc_minute": "2013-05-20T18:07Z",
+      "last_utc_minute": "2013-05-20T21:58Z",
+      "vcp_counts": {
+        "32": 2,
+        "11": 2,
+        "12": 48
+      },
+      "intervals_over_7_minutes": [
+        {
+          "minutes": 9.0,
+          "from_utc_minute": "2013-05-20T18:07Z",
+          "to_utc_minute": "2013-05-20T18:16Z"
+        },
+        {
+          "minutes": 10.0,
+          "from_utc_minute": "2013-05-20T18:16Z",
+          "to_utc_minute": "2013-05-20T18:26Z"
+        },
+        {
+          "minutes": 9.0,
+          "from_utc_minute": "2013-05-20T20:54Z",
+          "to_utc_minute": "2013-05-20T21:03Z"
+        }
+      ]
+    }
+  ],
+  "total_window_inventory_records": 258,
+  "unique_window_minutes": 53,
+  "acquisition_status": "downloaded_and_decoded",
+  "acquisition_verified_at_utc": "2026-10-09T17:22:03.415215+00:00",
+  "selected_product_bytes": 13703426,
+  "archive_download_bytes": 780915569,
+  "archive_generation": "1558552549295129",
+  "download_source": "NOAA NCEI historical Level III archive on Google Cloud via NODD",
+  "file_manifest": "file-manifest.csv",
+  "decode_summary": "decode-summary.json"
+}

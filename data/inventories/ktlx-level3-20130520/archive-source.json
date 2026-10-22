@@ -1,0 +1,31 @@
+{
+  "provider": "NOAA NCEI via NOAA Open Data Dissemination",
+  "provider_reference": "https://www.ncei.noaa.gov/products/ncei-data-noaa-open-dissemination-program",
+  "metadata_query": "https://storage.googleapis.com/storage/v1/b/gcp-public-data-nexrad-l3/o?prefix=2013%2F05%2F20%2FKTLX%2F&delimiter=%2F&maxResults=1000",
+  "object": {
+    "kind": "storage#object",
+    "id": "gcp-public-data-nexrad-l3/2013/05/20/KTLX/NWS_NEXRAD_NXL3_KTLX_20130520000000_20130520235959.tar.Z/1558552549295129",
+    "selfLink": "https://www.googleapis.com/storage/v1/b/gcp-public-data-nexrad-l3/o/2013%2F05%2F20%2FKTLX%2FNWS_NEXRAD_NXL3_KTLX_20130520000000_20130520235959.tar.Z",
+    "mediaLink": "https://storage.googleapis.com/download/storage/v1/b/gcp-public-data-nexrad-l3/o/2013%2F05%2F20%2FKTLX%2FNWS_NEXRAD_NXL3_KTLX_20130520000000_20130520235959.tar.Z?generation=1558552549295129&alt=media",
+    "name": "2013/05/20/KTLX/NWS_NEXRAD_NXL3_KTLX_20130520000000_20130520235959.tar.Z",
+    "bucket": "gcp-public-data-nexrad-l3",
+    "generation": "1558552549295129",
+    "metageneration": "1",
+    "contentType": "application/x-compress",
+    "storageClass": "MULTI_REGIONAL",
+    "size": "780915569",
+    "md5Hash": "HcC7oj6JAccDLbstGf7nSA==",
+    "crc32c": "iJm/6A==",
+    "etag": "CJmIwtjsr+ICEAE=",
+    "timeCreated": "2019-05-22T19:15:49.294Z",
+    "updated": "2019-05-22T19:15:49.294Z",
+    "timeStorageClassUpdated": "2019-05-22T19:15:49.294Z",
+    "timeFinalized": "2019-05-22T19:15:49.294Z"
+  },
+  "download_status": "verified",
+  "local_archive": "data/raw/nexrad-level3/KTLX/20130520/NWS_NEXRAD_NXL3_KTLX_20130520000000_20130520235959.tar.Z",
+  "local_archive_sha256": "5759dc1c8ae352cebf4ae4b0aad8f331bf6301bb9558e8bab114281832811b42",
+  "verified_size_bytes": 780915569,
+  "md5_verified_against_object_metadata": true,
+  "download_elapsed_seconds_approx": 33
+}

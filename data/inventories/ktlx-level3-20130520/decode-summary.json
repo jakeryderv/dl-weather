@@ -1,0 +1,32 @@
+{
+  "decoder": "MetPy Level3File",
+  "decoder_version": "1.7.1",
+  "pilot_files": 5,
+  "selected_files": 258,
+  "decoded_files": 258,
+  "decoded_product_counts": {
+    "N0C": 52,
+    "N0Q": 53,
+    "N0S": 50,
+    "N0U": 51,
+    "N0X": 52
+  },
+  "failures": [],
+  "status": "passed",
+  "checks": [
+    "SHA-256 and size",
+    "KTLX station and coordinates",
+    "product code",
+    "volume-start/filename UTC minute",
+    "radial array dimensions",
+    "packed-code mapping"
+  ],
+  "limitations": [
+    "Whole radar products retained; no geographic cropping or gridding performed.",
+    "Message, volume-start and product-generation timestamps are distinct and retained.",
+    "No unit conversion or velocity dealiasing performed.",
+    "MetPy can map missing and range-folded codes to the same NaN; packed-code counts retained.",
+    "Legacy N0S uses categorical threshold bins; no continuous-value reconstruction performed.",
+    "Decode success does not establish tornado signatures or exact per-gate observation times."
+  ]
+}

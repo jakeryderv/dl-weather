@@ -1,0 +1,16 @@
+{
+  "status": "matched_inventory",
+  "archive_members_scanned": 24900,
+  "selected_files": 258,
+  "selected_bytes": 13703426,
+  "product_counts": {
+    "N0C": 52,
+    "N0Q": 53,
+    "N0S": 50,
+    "N0U": 51,
+    "N0X": 52
+  },
+  "missing_inventory_minutes": [],
+  "extra_archive_minutes": [],
+  "scope": "Whole radar product files; no geographic crop or resampling"
+}

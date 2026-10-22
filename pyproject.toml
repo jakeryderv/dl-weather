@@ -6,7 +6,11 @@ readme = "README.md"
 requires-python = ">=3.12"
 authors = [{ name = "Jake Van Slyke", email = "jakervanslyke@gmail.com" }]
 dependencies = [
-    "earth2studio[data]>=0.19.0",
+    "netcdf4>=1.7.2",
+    "numpy>=2.5.3",
+    "pygrib>=2.1.8",
+    "s3fs>=2026.9.0",
+    "xarray>=2026.9.0",
 ]
 
 [project.scripts]
